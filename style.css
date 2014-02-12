@@ -1,0 +1,79 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body, html{
+  -webkit-text-size-adjust: 100%;
+  display: block;
+}
+
+body{
+  background-color: #FFF;
+}
+
+h1{
+  display: inline-block;
+  background-color: #CBFCEF;
+  color: #333;
+  margin:0;
+  padding: .3rem;
+  font-size: .8rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+.head{ 
+  background-color: #CBFCEF;
+  display: block;
+  overflow: hidden;
+  margin:1rem;
+  padding:.6rem;
+}
+
+.head li{
+  background-color: #FFF;
+  display:block;
+  height:1.4rem;
+  margin:1.2rem;
+  padding:0;
+}
+
+#first_name h1{
+  margin-left: 5%
+}
+
+#last_name h1:first-child{
+  float:left;
+  margin-left: 25%;
+}
+
+#last_name h1:last-child{
+  float:right;
+  margin-right: 25%;
+}
+
+#job_title h1{
+  margin-left: 10%;
+}
+
+#nav h1{
+  float:right;
+  margin:0 5%;
+}
+
+
+/* thanks to http://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+
+@media only screen 
+and (max-width : 320px)
+and (max-width : 480px)  {
+  html{
+    font-size: 10px;
+  }
+}
+
+
+}
